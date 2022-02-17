@@ -1,0 +1,41 @@
+body{
+    background-color: #e9ecef;
+}
+.login-box{
+    height: 408.391px;
+    width:auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    position: relative;
+}
+.login-logo{
+    font-family: viga;
+    font-size: 32px;
+    text-align: center ;
+    margin-top: 50px;
+}
+
+.login-card-body{
+    height: 250px;
+}
+.login-box-msg{
+    text-align: center;
+    color: gray;
+}
+
+
+/* utility */
+.button{
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+    text-transform: uppercase;
+}
+
+@media (min-width: 992px) {
+    .login-box{
+        width:380px;
+        justify-items: center;
+    }
+}
