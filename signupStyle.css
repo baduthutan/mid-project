@@ -17,8 +17,12 @@ body{
 }
 
 .login-card-body{
-    height: 500px;
+    height: 775px;
 
+}
+.login-card-body p{
+    margin-bottom: 5px;
+    margin-left: 5px;
 }
 .login-box-msg{
     text-align: center;
